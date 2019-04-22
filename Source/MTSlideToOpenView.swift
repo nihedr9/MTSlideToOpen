@@ -82,7 +82,7 @@ public class MTSlideToOpenView: UIView {
     }
     public var defaultThumbnailColor:UIColor = UIColor(red:25.0/255, green:155.0/255, blue:215.0/255, alpha:1) {
         didSet {
-            thumnailImageView.backgroundColor = defaultSlidingColor
+            thumnailImageView.backgroundColor = defaultThumbnailColor
         }
     }
     public var defaultLabelText: String = "Swipe to open" {
